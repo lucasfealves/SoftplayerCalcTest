@@ -2,6 +2,58 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "LibGit2Sharp/0.25.2": {
+        "type": "package",
+        "dependencies": {
+          "LibGit2Sharp.NativeBinaries": "[1.0.217]"
+        },
+        "compile": {
+          "lib/netstandard2.0/LibGit2Sharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LibGit2Sharp.dll": {}
+        }
+      },
+      "LibGit2Sharp.NativeBinaries/1.0.217": {
+        "type": "package",
+        "build": {
+          "build/LibGit2Sharp.NativeBinaries.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/_._": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgit2-6311e88.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/_._": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libgit2-6311e88.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win7-x64/native/git2-6311e88.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x64/native/git2-6311e88.pdb": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x86/native/git2-6311e88.dll": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          },
+          "runtimes/win7-x86/native/git2-6311e88.pdb": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          }
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4337,6 +4389,43 @@
     }
   },
   "libraries": {
+    "LibGit2Sharp/0.25.2": {
+      "sha512": "ucMh8mMVogJxmkvoqHdDx/3BIIjaO4EDXQZAacbkKOkO6ygWxe1j/grrLXiRruDAOFn5ezcUJJF7gIOH1Q2CSQ==",
+      "type": "package",
+      "path": "libgit2sharp/0.25.2",
+      "files": [
+        "App_Readme/CHANGES.md",
+        "App_Readme/LICENSE.md",
+        "App_Readme/README.md",
+        "lib/netstandard2.0/LibGit2Sharp.dll",
+        "lib/netstandard2.0/LibGit2Sharp.pdb",
+        "lib/netstandard2.0/LibGit2Sharp.xml",
+        "libgit2sharp.0.25.2.nupkg.sha512",
+        "libgit2sharp.nuspec"
+      ]
+    },
+    "LibGit2Sharp.NativeBinaries/1.0.217": {
+      "sha512": "fPG2+nyEgT5GIwj6x22CrB6z0/gVD08TERqCKtzGyaIoIimIvty0hGPVhzyCU73BX6L462e00GN41JD9nHwniA==",
+      "type": "package",
+      "path": "libgit2sharp.nativebinaries/1.0.217",
+      "files": [
+        "build/LibGit2Sharp.NativeBinaries.props",
+        "build/net461/LibGit2Sharp.NativeBinaries.props",
+        "libgit2/LibGit2Sharp.dll.config",
+        "libgit2/libgit2.license.txt",
+        "libgit2/libgit2_hash.txt",
+        "libgit2sharp.nativebinaries.1.0.217.nupkg.sha512",
+        "libgit2sharp.nativebinaries.nuspec",
+        "runtimes/linux-x64/native/_._",
+        "runtimes/linux-x64/native/libgit2-6311e88.so",
+        "runtimes/osx/native/_._",
+        "runtimes/osx/native/libgit2-6311e88.dylib",
+        "runtimes/win7-x64/native/git2-6311e88.dll",
+        "runtimes/win7-x64/native/git2-6311e88.pdb",
+        "runtimes/win7-x86/native/git2-6311e88.dll",
+        "runtimes/win7-x86/native/git2-6311e88.pdb"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "rMDlyePoxggkmN/qgha1+BR2Uy+dOr38xKCQOPfVNKGY07R2nYJGMTKJFE1XFgwD70RYUNazf2fqutjJF18XgQ==",
       "type": "package",
@@ -11495,6 +11584,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "LibGit2Sharp >= 0.25.2",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
@@ -11540,6 +11630,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "LibGit2Sharp": {
+            "target": "Package",
+            "version": "[0.25.2, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",

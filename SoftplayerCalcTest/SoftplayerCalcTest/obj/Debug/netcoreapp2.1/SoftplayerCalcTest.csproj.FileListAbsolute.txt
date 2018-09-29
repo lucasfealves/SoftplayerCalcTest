@@ -1,0 +1,14 @@
+C:\Users\Lucas\Source\Repos\SoftplayerCalcTest\SoftplayerCalcTest\SoftplayerCalcTest\obj\Debug\netcoreapp2.1\SoftplayerCalcTest.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Source\Repos\SoftplayerCalcTest\SoftplayerCalcTest\SoftplayerCalcTest\obj\Debug\netcoreapp2.1\SoftplayerCalcTest.RazorAssemblyInfo.cache
+C:\Users\Lucas\Source\Repos\SoftplayerCalcTest\SoftplayerCalcTest\SoftplayerCalcTest\obj\Debug\netcoreapp2.1\SoftplayerCalcTest.RazorAssemblyInfo.cs
+C:\Users\Lucas\Source\Repos\SoftplayerCalcTest\SoftplayerCalcTest\SoftplayerCalcTest\obj\Debug\netcoreapp2.1\SoftplayerCalcTest.AssemblyInfoInputs.cache
+C:\Users\Lucas\Source\Repos\SoftplayerCalcTest\SoftplayerCalcTest\SoftplayerCalcTest\obj\Debug\netcoreapp2.1\SoftplayerCalcTest.AssemblyInfo.cs
+C:\Users\Lucas\Source\Repos\SoftplayerCalcTest\SoftplayerCalcTest\SoftplayerCalcTest\bin\Debug\netcoreapp2.1\SoftplayerCalcTest.deps.json
+C:\Users\Lucas\Source\Repos\SoftplayerCalcTest\SoftplayerCalcTest\SoftplayerCalcTest\bin\Debug\netcoreapp2.1\SoftplayerCalcTest.runtimeconfig.json
+C:\Users\Lucas\Source\Repos\SoftplayerCalcTest\SoftplayerCalcTest\SoftplayerCalcTest\bin\Debug\netcoreapp2.1\SoftplayerCalcTest.runtimeconfig.dev.json
+C:\Users\Lucas\Source\Repos\SoftplayerCalcTest\SoftplayerCalcTest\SoftplayerCalcTest\bin\Debug\netcoreapp2.1\SoftplayerCalcTest.dll
+C:\Users\Lucas\Source\Repos\SoftplayerCalcTest\SoftplayerCalcTest\SoftplayerCalcTest\bin\Debug\netcoreapp2.1\SoftplayerCalcTest.pdb
+C:\Users\Lucas\Source\Repos\SoftplayerCalcTest\SoftplayerCalcTest\SoftplayerCalcTest\obj\Debug\netcoreapp2.1\SoftplayerCalcTest.RazorTargetAssemblyInfo.cache
+C:\Users\Lucas\Source\Repos\SoftplayerCalcTest\SoftplayerCalcTest\SoftplayerCalcTest\obj\Debug\netcoreapp2.1\SoftplayerCalcTest.dll
+C:\Users\Lucas\Source\Repos\SoftplayerCalcTest\SoftplayerCalcTest\SoftplayerCalcTest\obj\Debug\netcoreapp2.1\SoftplayerCalcTest.pdb
+C:\Users\Lucas\Source\Repos\SoftplayerCalcTest\SoftplayerCalcTest\SoftplayerCalcTest\obj\Debug\netcoreapp2.1\SoftplayerCalcTest.csprojAssemblyReference.cache
