@@ -20,20 +20,7 @@ namespace SoftplayerCalcTest.Controllers
 		[HttpGet, Route("/calculaJuros")]
 		public ActionResult<decimal> GetCalculaJuros(double ValorInicial, int meses)
 		{
-
-			decimal a = (1 + Convert.ToDecimal(0.01));
-			int i = 0;
-			decimal b = 0;
-			while (i < meses-1)
-			{
-				if (b == 0)
-					b = a * a;
-				else
-					b = b * a;
-				i++;
-			};
-			b = Convert.ToDecimal(ValorInicial) * b;
-			return Math.Round(b,2);
+			return Math.Round(Convert.ToDecimal(ValorInicial * Math.Pow(1.01, Convert.ToDouble(meses))),2, MidpointRounding.AwayFromZero);
 		}
 
 		[HttpGet, Route("/showmethecode")]
